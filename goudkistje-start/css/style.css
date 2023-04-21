@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.kym-cdn.com/entries/icons/facebook/000/030/873/Screenshot_20.jpg");
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#playing-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.playing-card {
+    margin: 5px;
+    width: 200px;
+}
+
+input, button {
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+#alert {
+    text-align: center;
+}
+
+#alert button {
+    width: 75px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    width: 205px;
+}
+
+.bigZoom {
+    transition: .1s ease-in-out;
+}
+
+.bigZoom:hover {
+    transform: scale(1.5);
+}
+
+.smallZoom {
+    transition: .1s ease-in-out;
+}
+
+.smallZoom:hover {
+    transform: scale(1.1);
+}
